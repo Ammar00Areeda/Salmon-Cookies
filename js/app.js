@@ -111,9 +111,9 @@ function createTableFoter() {
         let tdEl = document.createElement('td');
         trEl.appendChild(tdEl);
         let sum = 0;
-        let currentShope = 0;
+        
         for (let j = 0; j < shops.length; j++) {
-            
+            let currentShope = 0;
              currentShope = shops[j];
 
             sum += currentShope.cookiesPerHourArray[j];
@@ -124,6 +124,13 @@ tdEl.textContent = sum;
 totalSales += sum;
     }
 
+
+
+
+
+
+    
+
 let tdEl = document.createElement('td');
 trEl.appendChild(tdEl)
 tdEl.textContent = totalSales;
@@ -132,6 +139,31 @@ tdEl.textContent = totalSales;
 
 }
 createTableFoter();
+
+
+// var footerRow = document.createElement('tr');
+// table.appendChild(footerRow);
+// var th = document.createElement('th');
+// footerRow.appendChild(th);
+// th.textContent = 'Totals';
+
+// var megaTotalSalesCookies = 0;
+// for (var hourIndex = 0; hourIndex < hours.length; hourIndex++) {
+//     var td = document.createElement('td');
+//     footerRow.appendChild(td);
+//     var sum = 0;
+//     for (var shopIndexCell = 0; shopIndexCell < shoplist.length; shopIndexCell++) {
+//         var currentShop = shoplist[shopIndexCell];
+
+//         sum += currentShop.hourlySales[hourIndex];
+//     }
+ 
+//     td.textContent = sum;
+//     megaTotalSalesCookies += sum;
+// }
+// var td = document.createElement('td');
+// footerRow.appendChild(td);
+// td.textContent = megaTotalSalesCookies;
 
 
 
