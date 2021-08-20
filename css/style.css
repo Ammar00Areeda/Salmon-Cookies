@@ -1,4 +1,65 @@
-table,tr,td,th{
+* {
+    font-family: helvetica, sans-serif;
+  }
+  
+  #welc {
+    font-family: Passion One, cursive;
+    color: rgb(44, 28, 26);
+  }
+  /* For the table*/
+  td {
+    background-color: salmon;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-size: 1.2em;
+  }
+  
+  th {
+    background-color: gray;
+    color: white;
+    padding: 2px;
+    border-radius: 8px;
+    font-size: 1.2em;
+  
+  }
+  
+  label {
+    color: salmon;
+  }
+  
+  legend {
+    color: salmon;
+    font-family: 'Righteous', cursive;
+  }
+  
+  .total {
+    font-weight: bold;
+  }
 
-    border: 1px solid red;
-}
+  #title{
+    
+    margin-left: 50px;
+    font-family: Arial, sans-serif;
+    color: beige;
+  }
+
+  #intro{
+    font-family: Georgia, serif;
+    color: yellow;
+
+  }
+
+  *{
+    background-color: skyblue;
+  }
+
+  h3{
+
+    font-family: Garamond, serif;
+    color: violet;
+  }
+  ol{
+
+    color: whitesmoke;
+  }
